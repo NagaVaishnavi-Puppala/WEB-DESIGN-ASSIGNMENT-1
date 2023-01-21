@@ -1,6 +1,7 @@
 # WEB-DESIGN-ASSIGNMENT-1
 ### Introduction
 This assignment is done using HTML and css selectors.
+the website is a travel webpage
 
 ### About the project
 
