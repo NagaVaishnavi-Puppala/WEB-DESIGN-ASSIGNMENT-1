@@ -1,0 +1,109 @@
+*{
+    border: 0;
+    padding: 0;
+}
+
+body {
+    background-repeat:no-repeat;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;
+}   
+
+.header {
+    display: flex;
+}
+
+#logo-icon {
+    width: 100px;
+    padding-right:20px;
+    height: 80px;
+}
+
+.title {
+    color: black;
+    padding-left: 40px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+.nav-links ul {
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+}
+
+.nav-links  li{ 
+    list-style: none;
+    padding: 30px;
+    font-size: 18px;
+}
+
+.connectNow {
+    margin-bottom: 2rem;
+    padding:10px;
+    border-radius: 2px;
+    display: inline;
+    background-color: rgb(142, 142, 223);
+}
+
+/* footer-section */
+.footer {
+   background-color:#caf0f8;
+   color: rgb(2, 0, 0);
+    padding: 3rem;
+    border-radius: 1px;
+}
+
+.footer p {
+    font-weight: 500;
+    display: inline;
+    padding-right: 8rem;
+    float: left;
+}
+
+/* footer links */
+.footer ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.footer ul li {
+    float:left;
+    /* padding-right: 15px; */
+    /* font-size: 10px; */
+}
+
+.footer a[href] {
+    padding: 1.2rem;
+    font-size: 18px;
+}
+
+.footer a img {
+    float: right;
+    padding: 2rem;
+    width: 50px;
+    height: 35px;
+}
+/* happy customers section */
+.testimonials {
+    margin-top: 5%;
+    padding: 0.1rem;
+    display: flex;
+}
+
+.testimonials h2 {
+    text-align: center;
+}
+
+.testimonial {
+    overflow-wrap: auto;
+    padding: 0.2rem;
+    line-height: 1.5rem;
+}
+/* styling quotation marks */
+.testimonial sup {
+    font-size: 2.5rem;
+    color: rgb(9, 20, 124);
+    float: left;
+}
